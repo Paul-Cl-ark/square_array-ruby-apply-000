@@ -1,4 +1,3 @@
 def square_array(array)
-  array = []
-  array.each {| x | x **= x }
+  array.push.each {| x | x **= x }
 end
